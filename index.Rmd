@@ -92,39 +92,11 @@ Increased freshwater focus on connectivity and fish passage:
 - Spatial tools to assess watershed connectivity and prioritize barriers for remediation
 - **<span style="color: #de3c26;">Development of the Canadian Aquatic Barriers Database (CABD)</span>**
 
-Add picture of some kind of spatial tool here?
-
-&nbsp;
-
 <center>
-![fish_ladder](./img/fish_ladder.png){height=160px} ![american_eel](./img/american_eel.png){height=160px} ![bridge](./img/bridge.png){height=160px} ![salmon](./img/salmon.png){height=160px}
+![fish_ladder](./img/fish_ladder.png){height=160px} ![american_eel](./img/american_eel.png){height=160px}  ![spatial_tool](./img/spatial_tool_2.png){height=160px}
 </center>
 
 # Why develop standard protocols for assessing aquatic barriers in Canada?
-
-## What is needed to support fish passage and freshwater connectivity restoration?
-
-1. Comprehensive information sources
-2. Field assessment protocols and methods
-
-CWF aiming to address these needs with CABD
-
-1. National database
-2. National standardized barrier assessment protocols
-
-## National standardized assessment protocols
-
-- Several barrier assessment protocols, particularly for culverts, have been developed for different regions in Canada (replace with assorted pictures of protocols?)
-- No national standard = independent development of protocols region by region
-- Gaps/limited application of protocols for:
-  + Low-head dams
-  + Waterfalls
-  + Lateral barriers
-  + Specialized structures (e.g., tide gates/aboiteaux)
-- CABD requires standardized data structures
-
-
-# Canadian Aquatic Barriers Database (CABD)
 
 ## What is the conservation issue?
 
@@ -147,7 +119,78 @@ What we don't know:
 - How much habitat is not accessible?
 - How do we identify the most important barriers to maximize benefits?
 
-**<span style="color: #de3c26;">We need comprehensive information to answer these questions</span>**
+## Towards Answers
+
+**<span style="color: #de3c26;">What is needed to support fish passage and freshwater connectivity restoration?</span>**
+
+1. Comprehensive information sources
+2. Field assessment protocols and methods
+
+## CWF's Work
+
+CWF aiming to address these needs with the CABD project
+
+1. National database
+2. National standardized barrier assessment protocols
+
+## National standardized assessment protocols
+
+- Several barrier assessment protocols have been developed for different regions in Canada (replace with assorted pictures of protocols?)
+- No national standard = independent development of protocols region by region
+- Gaps/limited application of protocols for:
+  + Low-head dams
+  + Waterfalls
+  + Lateral barriers
+  + Specialized structures (e.g., tide gates/aboiteaux)
+- CABD requires standardized data structures
+
+## CWF's Desired Outcomes
+
+- It is **<span style="color: #de3c26;">not</span>** our expectation to replace existing regional protocols
+- Our goals:
+  + Learn from the application of existing protocols and programs
+  + Support compatibility and data sharing, where desired and feasible
+  + Provide a protocol that can be applied across Canada, where regional protocols do not exist
+
+## Workshop Objectives
+
+1. Share and learn from existing stream crossing protocols and programs, including successes, lessons learned, and opportunities/limitations of standardization
+
+## Workshop Objectives
+
+2. Identify implications of overlapping protocols, how to manage compatibility or lack thereof, and avoid duplication of effort
+
+## Workshop Objectives
+
+3. Elicit feedback on proposed national assessment protocols for stream crossings and inform the CABD data structure
+
+## Workshop Scope
+
+An important question we were asked: **<span style="color: #de3c26;">Why are we assessing crossings?</span>**
+
+Different groups may not be assessing crossings for the same reasons:
+
+- Aquatic species passability
+- Infrastructure management
+- Conformance and compliance
+
+## Workshop Scope
+
+Development of field protocols and assessment methods to assess stream crossings for **<span style="color: #de3c26;">passability</span>**
+
+## Additional considerations
+
+1. Scoring systems - what is a barrier to fish?
+2. Conformance to BMPs and compliance with regulation
+
+Out of scope to date, but will discuss path forward during Day 2
+
+# Canadian Aquatic Barriers Database (CABD)
+
+## What is needed to support fish passage and freshwater connectivity restoration?
+
+1. Comprehensive information sources
+2. Field assessment protocols and methods
 
 ## Canadian Aquatic Barriers Database (CABD)
 
@@ -248,147 +291,7 @@ All Canada's barrier and connectivity information in one place -- easily and ope
 4. Research and monitoring
 5. Education and public outreach
 
-## CABD Components
-
-<div class="container">
-<div class="col">
-1. Hydrographic networks
-
-<center>
-![hydro1](./img/hydro1.png){height=150px}
-</center>
-</div>
-
-<div class="col">
-2. Barrier data
-
-<center>
-![barrier_points](./img/barrier_points.PNG){height=150px}
-</center>
-</div>
-
-<div class="col">
-3. Web map and tools
-
-<center>
-![interface](./img/interface.png){height=150px}
-</center>
-</div>
-
-</div>
-
-## Hydrographic networks
-- Canada does not have a clean and connected GIS layer representing streams, rivers, and lakes
-- National Hydrography Network (NHN) has errors and issues
-
-&nbsp;
-
-<center>
-![cycles](./img/cycles.png){height=225px} ![flow-dir](./img/flow-dir.png){height=225px} ![disconnected](./img/disconnected.png){height=225px}
-</center>
-
-## Hydrographic networks
-
-<div class="container">
-<div class="col">
-- CABD requires clean networks to relate barriers each other and to habitat gains
-- CWF leading development of tools to update the NHN &rarr; building on work done by NRCan - **<span style="color: #de3c26;">Common Hydrology Features (CHyF)</span>**
-</div>
-
-<div class="col">
-<center>
-![hydro-processing](./img/hydro-processing.png)
-</center>
-</div>
-
-</div>
-
-## CHyF v2
-
-- **<span style="color: #de3c26;">Open-source tools</span>**
-- Leverages graph theory and web services for improved analytical performance (upstream and downstream traces)
-- CWF continuing development:
-  + Processing all of Canada
-  + Additional attributes (e.g., stream order, flowpath types)
-  + Will be available for download or via vector tile service
-- Collaboration with NRCan &rarr; our work will be shared to improve the quality of the NHN
-
-<center>
-![CHyF](./img/chyf.png){height=275px}
-</center>
-
-## Barrier Data
-
-<div class="container">
-<div class="col">
-- Standardized data structure through engagement
-- Current barrier types:
-  + Dams (includes some weirs and dykes for now)
-  + Waterfalls
-  + **<span style="color: #de3c26;">Fishways</span>** (inherited CANFISHPASS from the Cooke lab at Carleton University)
-- Future years:
-  + Stream crossings (road, rail, trail)
-  + Lateral barriers (dykes/levees, embankments, etc.)
-  + Others?
-</div>
-
-<div class="col">
-<center>
-
-&nbsp;
-
-![layers](./img/layers.png)
-</center>
-</div>
-
-</div>
-
-## Barrier Data Processing
-
-<div class="container">
-<div class="col">
-Five main steps:
-
-1. Data source compilation
-2. De-duplication
-3. Spatial attribute mapping
-4. Geolocation (including snapping to hydro network)
-5. Non-spatial information collection
-</div>
-
-<div class="col">
-<center>
-![geolocate](./img/geolocate.png)
-</center>
-</div>
-
-</div>
-
-## Attribute mapping
-
-1. Aggregate attributes from existing spatial sources
-2. Identification of non-spatial data sources (search engines)
-
-<center>
-**<span style="color: #de3c26;">100+ data sources reviewed to date</span>**
-</center>
-
-&nbsp;
-
-<center>
-![attributes](./img/attributes.png){height=300px} ![spreadsheet](./img/spreadsheet.png){height=300px}
-</center>
-
 ## CABD (version 1)
-
-- **<span style="color: #de3c26;">November 2021</span>**: public "sneak peek" release in pilot regions
-- **<span style="color: #de3c26;">December 2021</span>**: Alberta release
-- **<span style="color: #de3c26;">February 2022</span>**: Atlantic Canada release (NB, NL, NS, PEI)
-- **<span style="color: #de3c26;">March 2022</span>**: British Columbia release
-- Release remaining data on monthly basis through summer 2022
-- Add additional barrier types in future years (e.g., stream crossings)
-
-## Expected Results
 
 &nbsp;
 
@@ -396,87 +299,49 @@ Five main steps:
 
 ![dam](./img/dam.svg){height=300px} ![waterfall](./img/waterfall.svg){height=300px} ![fishway](./img/fishway.svg){height=300} 
 
-<span style = "font-size: 150%; color: #de3c26; padding-left: 65px;">30,000+</span> <span style = "font-size: 150%; color: #de3c26; padding-left: 140px;">10,000+</span> <span style = "font-size: 150%; color: #de3c26; padding-left:170px;">400+</span>
+<span style = "font-size: 150%; color: #de3c26; padding-left: 65px;">36,000+</span> <span style = "font-size: 150%; color: #de3c26; padding-left: 140px;">22,000+</span> <span style = "font-size: 150%; color: #de3c26; padding-left:170px;">400+</span>
 
 ## Demo!
 
 <center>
-<a href="https://aquaticbarriers.ca/" data-preview-link>aquaticbarriers.ca</a>
+<a href="https://cabd-git-develop-foundryspatial.vercel.app/en" data-preview-link>aquaticbarriers.ca</a>
 </center>
 
-## Next Steps
+<center>
+<a href="https://cabd-docs.netlify.app/index.html" data-preview-link>Documentation Site</a>
+</center>
 
-- Continue information gathering
-  + **<span style="color: #de3c26;">Phase 1:</span>** Compile existing datasets (including stream-crossings)
-  + **<span style="color: #de3c26;">Phase 2:</span>** Begin to fill data gaps (with input from citizen scientists!)
-- Expand features in the web tool
-- Develop documentation site (tutorials, metadata, etc.)
-- Develop additional tools
+## Standardized Data Structures
 
-## Additional Tools
+- Central repository requires standardized set of fields
+- Facilitate data management and sharing
+- Standardized field assessment methods &rarr; standardized data structures
 
-**<span style="color: #de3c26;">Standardized barrier assessment protocols</span>**
+&nbsp;
+
+<center>
+![attributes](./img/attributes.png){height=300px} ![spreadsheet](./img/spreadsheet.png){height=300px}
+</center>
+
+## National Standardized barrier assessment protocols
 
 - Extensive review and synthesis - existing protocols
-- Modular approach to maintain flexibility, e.g., <a href="https://streamcontinuity.org/naacc/assessments/aquatic-connectivity-non-tidal" data-preview-link>NAACC protocols</a>
-- Series of regional workshops in spring/summer 2022
+- Proposed protocols for stream crossings and elicit expert feedback
   
 <center>
 ![assessment](./img/assessment.jpg)
 </center>
 
-## Additional Tools
+## Desired Outcomes
 
-**<span style="color: #de3c26;">Develop or adapt citizen science apps</span>**
+1. Develop standardized, life-stage and species agnostic stream crossing assessment protocol to:
 
-- Partner and public participation to identify and assess barriers:
-  1. Information entry portal - allow direct additions to CABD
-  2. Mobile app - public can identify and assess barriers
-- Collaboration opportunities with existing apps
-  + <a href="https://portal.amber.international/" data-preview-link>AMBER (Europe)</a>
-  + <a href="https://image.winudf.com/v2/image1/Y29tLndvb2RsYW5kc25vcnRoLmFid2NpX3NjcmVlbl8yXzE1ODkwNzYyODFfMDYy/screen-2.jpg?fakeurl=1&type=.jpg" data-preview-link>Alberta Watercourse Crossing Inventory app</a>
+  + Provide a standardized set of stream crossing assessment protocols for parts of Canada that do no have them
+  + Inform standardized data structure for stream crossings in CABD
   
-## Additional Tools
+2. In future years, develop assessment protocols for additional barrier types (e.g., tide gates/aboiteaux, waterfalls, lateral structures)
 
-- Research partnerships
-  + Validating functional connectivity indicators
-  + Remote sensing/modelling tools (identify barriers, estimate passability)
-- Freshwater connectivity toolbox
-  + Resources, best practices, success stories
 
-## Watershed Connectivity Remediation Planning framework
-
-<div class="container">
-<div class="col">
-- Collaborative framework to plan connectivity conservation and restoration - applied in BC and AB
-- Adapted from Conservation Standards
-- Not intended to be habitat/watershed restoration plan
-  + Serves well as a module in such broader plans
-- Guide document for connectivity planning in Canada
-</div>
-
-<div class="col">
-<center>
-![WCRP-guide](./img/wcrp-guide.png)
-</center>
-</div>
-
-</div>
-
-## Watershed Connectivity Remediation Planning framework
-
-- Key components:
-  + Clear geographic and thematic scope
-  + Focal (target) species or ecosystem features
-  + Current connectivity status estimated for each target
-  + SMART goals for gains in connectivity
-  + Barrier prioritization to meet goals efficiently
-  + Action plan with responsibilities identified and costs estimated
-
-## Watershed Connectivity Remediation Planning framework
-
-![flowchart](./img/flowchart.jpg)
-- Guides process from desktop prioritization exercises to on-the-ground implementation
 
 # Thank you!
 
