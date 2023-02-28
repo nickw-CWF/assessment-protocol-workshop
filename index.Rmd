@@ -19,7 +19,7 @@ Initiative Background and Overview
 </h2>
 
 <h3>
-Workshop: Developing Standard Protocols for Assessing Aquatic Barriers in Canada
+Workshop: Developing National Protocols for Assessing Aquatic Barriers in Canada
 </h3>
 
 <h5>
@@ -83,7 +83,7 @@ knitr::include_graphics("./img/white-cwf-logo-en.svg")
 
 ## National Fish Passage Program
 
-Increased freshwater focus on connectivity and fish passage:
+Increased focus on freshwater connectivity and fish passage:
 
 - Chinook salmon research in Upper Yukon River
 - American eel research and advocacy
@@ -96,7 +96,7 @@ Increased freshwater focus on connectivity and fish passage:
 ![fish_ladder](./img/fish_ladder.png){height=160px} ![american_eel](./img/american_eel.png){height=160px}  ![spatial_tool](./img/spatial_tool_2.png){height=160px}
 </center>
 
-# Why develop standard protocols for assessing aquatic barriers in Canada?
+# Why develop national protocols for assessing aquatic barriers in Canada?
 
 ## What is the conservation issue?
 
@@ -119,35 +119,41 @@ What we don't know:
 - How much habitat is not accessible?
 - How do we identify the most important barriers to maximize benefits?
 
-## Towards Answers
+## Toward Answers
 
 **<span style="color: #de3c26;">What is needed to support fish passage and freshwater connectivity restoration?</span>**
 
 1. Comprehensive information sources
-2. Field assessment protocols and methods
+2. Field assessment protocols for passability
 
 ## CWF's Work
 
 CWF aiming to address these needs with the CABD project
 
 1. National database
-2. National standardized barrier assessment protocols
+2. National barrier assessment protocols
 
-## National standardized assessment protocols
+&nbsp;
 
-- Several barrier assessment protocols have been developed for different regions in Canada (replace with assorted pictures of protocols?)
-- No national standard = independent development of protocols region by region
+<center>
+![database](./img/database.png){height=200px} ![protocol](./img/protocol.png){height=200px}
+</center>
+
+## National assessment protocols
+
+- Several barrier assessment protocols have been developed for different regions in Canada
+- Avoid independent development of protocols region by region
 - Gaps/limited application of protocols for:
   + Low-head dams
   + Waterfalls
   + Lateral barriers
   + Specialized structures (e.g., tide gates/aboiteaux)
-- CABD requires standardized data structures
+- CABD requires consistent data structures
 
-## CWF's Desired Outcomes
+## Desired Outcomes
 
 - It is **<span style="color: #de3c26;">not</span>** our expectation to replace existing regional protocols
-- Our goals:
+- CWF's goals:
   + Learn from the application of existing protocols and programs
   + Support compatibility and data sharing, where desired and feasible
   + Provide a protocol that can be applied across Canada, where regional protocols do not exist
@@ -166,7 +172,7 @@ CWF aiming to address these needs with the CABD project
 
 ## Workshop Scope
 
-An important question we were asked: **<span style="color: #de3c26;">Why are we assessing crossings?</span>**
+An important question we were asked: **<span style="color: #de3c26;">What is the purpose of assessing crossings?</span>**
 
 Different groups may not be assessing crossings for the same reasons:
 
@@ -176,11 +182,11 @@ Different groups may not be assessing crossings for the same reasons:
 
 ## Workshop Scope
 
-Development of field protocols and assessment methods to assess stream crossings for **<span style="color: #de3c26;">passability</span>**
+For this workshop: Development of field protocols to assess stream crossings for **<span style="color: #de3c26;">passability</span>**
 
 ## Additional considerations
 
-1. Scoring systems - what is a barrier to fish?
+1. Scoring systems - what is a barrier to aquatic species?
 2. Conformance to BMPs and compliance with regulation
 
 Out of scope to date, but will discuss path forward during Day 2
@@ -283,7 +289,7 @@ All Canada's barrier and connectivity information in one place -- easily and ope
 ![network](./img/network.png){height=200px} ![two-way](./img/two-way.png){height=200px}
 </center>
 
-## What will the CABD be used for?
+## What is the CABD be used for?
 
 1. Habitat status assessments and reporting (watershed &rarr; national scales)
 2. Informing management and regulatory decisions
@@ -307,15 +313,11 @@ All Canada's barrier and connectivity information in one place -- easily and ope
 <a href="https://cabd-git-develop-foundryspatial.vercel.app/en" data-preview-link>aquaticbarriers.ca</a>
 </center>
 
-<center>
-<a href="https://cabd-docs.netlify.app/index.html" data-preview-link>Documentation Site</a>
-</center>
+## Data Structures
 
-## Standardized Data Structures
-
-- Central repository requires standardized set of fields
-- Facilitate data management and sharing
-- Standardized field assessment methods &rarr; standardized data structures
+- Central repository requires a common set of fields
+- Inform decision making, facilitate data management and sharing
+- Field assessment methods &rarr; data structures
 
 &nbsp;
 
@@ -323,7 +325,7 @@ All Canada's barrier and connectivity information in one place -- easily and ope
 ![attributes](./img/attributes.png){height=300px} ![spreadsheet](./img/spreadsheet.png){height=300px}
 </center>
 
-## National Standardized barrier assessment protocols
+## National barrier assessment protocols
 
 - Extensive review and synthesis - existing protocols
 - Proposed protocols for stream crossings and elicit expert feedback
@@ -334,14 +336,14 @@ All Canada's barrier and connectivity information in one place -- easily and ope
 
 ## Desired Outcomes
 
-1. Develop standardized, life-stage and species agnostic stream crossing assessment protocol to:
+Develop national, life-stage and species agnostic stream crossing assessment protocol to:
 
-  + Provide a standardized set of stream crossing assessment protocols for parts of Canada that do no have them
-  + Inform standardized data structure for stream crossings in CABD
-  
-2. In future years, develop assessment protocols for additional barrier types (e.g., tide gates/aboiteaux, waterfalls, lateral structures)
+#. Provide a set of stream crossing assessment protocols for parts of Canada that do no have them
+#. Inform the data structure for stream crossings in CABD
 
+## Desired Outcomes
 
+In future years, develop assessment protocols for additional barrier types (e.g., tide gates/aboiteaux, waterfalls, lateral structures)
 
 # Thank you!
 
